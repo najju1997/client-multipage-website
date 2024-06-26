@@ -4,7 +4,7 @@ import Footer from '../components/Footer';
 
 const Contact = () => {
     return (
-        <><div className="bg-gray-100 py-12 font-futurapt">
+        <><div className="my-8 bg-gray-100 py-12 font-futurapt">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="lg:text-center">
 

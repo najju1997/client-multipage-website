@@ -2,7 +2,7 @@ import React from 'react';
 
 const About = () => {
     return (
-        <section className="font-futurapt pt-10 overflow-hidden bg-white">
+        <section className="my-8 font-futurapt pt-10 overflow-hidden bg-white">
             <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
 

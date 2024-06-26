@@ -13,6 +13,7 @@ export default function Hero() {
           </p>
           <a
             href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2_lncfjV2lDh7zH-1wOV3q2aG41YSm7gXDdxJ4mEizZN0q0_g1C0ed3wBGKEtPd-Gx5HWSlaEA"
+            target="_blank" rel="noopener noreferrer"
             className="inline-flex items-center justify-center px-5 py-3 text-base font-bold text-center text-white border border-transparent rounded-lg bg-purple-600 hover:bg-purple-700 focus:ring-4 focus:ring-purple-300"
           >
             Book an Appointment

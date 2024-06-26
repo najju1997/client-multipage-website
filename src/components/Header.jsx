@@ -93,6 +93,7 @@ export default function Navbar() {
               </Link>
               <a
                 href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2_lncfjV2lDh7zH-1wOV3q2aG41YSm7gXDdxJ4mEizZN0q0_g1C0ed3wBGKEtPd-Gx5HWSlaEA"
+                target="_blank" rel="noopener noreferrer"
                 className="bg-purple-600 text-white px-4 py-2 rounded-lg hover:bg-purple-700 font-bold"
                 onClick={closeMenu}
               >
