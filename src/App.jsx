@@ -6,6 +6,7 @@ import Pricing from './pages/Pricing';
 import Booking from './pages/Booking';
 import Navbar from './components/Header'
 import './index.css'
+import Footer from './components/Footer';
 
 
 
@@ -20,6 +21,7 @@ function App() {
         <Route path="/pricing" element={<Pricing />} />
         <Route path="/booking" element={<Booking />} />
       </Routes>
+      <Footer />
     </div>
   );
 }
