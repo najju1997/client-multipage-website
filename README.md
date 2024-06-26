@@ -1,8 +1,20 @@
-# React + Vite
+# Everest Physiotherapy Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a multipage React website project for Everest Physiotherapy.
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Introduction](#introduction)
+- [Features](#features)
+
+## Introduction
+
+This project is a React-based website developed for Everest Physiotherapy. It includes multiple pages such as Home, Services, About Us, Contact, and Pricing.
+
+## Features
+
+- Responsive design using Tailwind CSS
+- Integration with React Router for navigation
+- Contact form with client-side validation
+- Pricing page showcasing services and prices
+- Dynamic routing and content rendering
