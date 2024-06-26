@@ -11,8 +11,7 @@ const Pricing = () => {
                     Our pricing plan
                 </h1>
                 <p className="text-base leading-5 mt-5 text-gray-600">
-                    We’re working on a suit of tools to make managing complex systems easier, for everyone for free.
-                    We can’t wait to hear what you think.
+                Discover our competitive pricing — it's the best value for exceptional quality service.
                 </p>
             </div>
             <div className="xl:w-1/2 lg:w-7/12 relative w-full lg:mt-0 mt-12 md:px-8">
