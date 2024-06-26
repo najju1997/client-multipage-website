@@ -9,7 +9,6 @@ const Home = () => {
       <Hero />
       <Services />
       <Map />
-      <Footer />
     </>
     
   );
