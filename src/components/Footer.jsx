@@ -2,6 +2,12 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  };
   return (
     <footer className="font-futurapt relative bg-[#f7f6f2] pt-8 pb-6">
       <div className="container mx-auto px-8">
@@ -52,6 +58,7 @@ const Footer = () => {
                     <Link
                       className="text-blueGray-600 hover:text-blueGray-800 block pb-2 text-sm"
                       to="/about"
+                      onClick={scrollToTop}
                     >
                       About Us
                     </Link>
@@ -59,8 +66,8 @@ const Footer = () => {
                   <li>
                     <Link
                       className="text-blueGray-600 hover:text-blueGray-800  block pb-2 text-sm"
-                      to="/contact
-                      "
+                      to="/contact"
+                      onClick={scrollToTop}
                     >
                       Location
                     </Link>
@@ -69,6 +76,7 @@ const Footer = () => {
                     <Link
                       className="text-blueGray-600 hover:text-blueGray-800 block pb-2 text-sm"
                       to="/pricing"
+                      onClick={scrollToTop}
                     >
                       Pricing
                     </Link>
@@ -77,6 +85,7 @@ const Footer = () => {
                     <Link
                       to="/contact"
                       className="text-blueGray-600 hover:text-blueGray-800 block pb-2 text-sm"
+                      onClick={scrollToTop}
                     >
                       Contact
                     </Link>
