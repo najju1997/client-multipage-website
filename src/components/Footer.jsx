@@ -96,9 +96,9 @@ const Footer = () => {
 
               {/* contact info */}
                 <span className="block uppercase font-semibold text-blueGray-500 text-sm mb-2">Contact Info</span>
-                <a>
+                <a className='text-blueGray-600 hover:text-blueGray-800 block pb-2 text-sm'> 
                   Cranstoun Hall, Pathhead, Midlothian, EH37 5RF<br />
-                  07-939-195-465<br />
+                  07939195465<br />
                   theeverestphysiotherapy@gmail.com
                 </a>
               </div>
@@ -121,7 +121,7 @@ const Footer = () => {
                 Everest Physiotherapy by {}
               </a>
               <a
-                href="https://dev.ujjan"
+                href="https://ujjan.info"
                 className="text-red-400 hover:text-blueGray-800"
                 target="_blank"
                 rel="noopener noreferrer"

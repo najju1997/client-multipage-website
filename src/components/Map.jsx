@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Map = () => {
   return (
     <section className="bg-[#ffffff]">
-      <div className="font-futurapt mx-auto w-full max-w-7xl px-5 py-16 md:px-10 md:py-24 lg:py-32">
+      <div className="font-futurapt mx-auto w-full max-w-7xl px-5 py-8 md:px-10 md:py-12 lg:py-16">
         <div className="flex flex-col lg:flex-row items-center gap-8 sm:gap-20">
 
             {/* Location description */}
@@ -34,7 +34,7 @@ const Map = () => {
                 <img
                     src="/src/assets/location.png"
                     alt="Location Image"
-                    className="mx-auto h-auto w-full lg:max-w-[480px] max-w-[480px] rounded-2xl object-cover"
+                    className="mx-auto h-auto w-full lg:max-w-[480px] max-w-[480px] rounded-2xl object-cover shadow-2xl"
                 />
                 </a>
 

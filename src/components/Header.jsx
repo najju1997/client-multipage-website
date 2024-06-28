@@ -71,6 +71,14 @@ export default function Navbar() {
           <div className="hidden md:block">
             <div className="ml-10 flex items-center justify-end space-x-10 font-futurapt">
               <Link
+                to="/"
+                className="text-gray-700 hover:text-gray-900 font-bold"
+                onClick={closeMenu}
+              >
+                Home
+              </Link>
+
+              <Link
                 to="/about"
                 className="text-gray-700 hover:text-gray-900 font-bold"
                 onClick={closeMenu}
@@ -111,6 +119,13 @@ export default function Navbar() {
       >
         <div className="font-futurapt px-2 pt-2 pb-3 space-y-1 sm:px-3">
           <Link
+                to="/"
+                className="text-gray-700 hover:text-gray-900 block px-3 py-2 rounded-md text-base font-medium"
+                onClick={closeMenu}
+              >
+                Home
+              </Link>
+          <Link
             to="/about"
             className="text-gray-700 hover:text-gray-900 block px-3 py-2 rounded-md text-base font-medium"
             onClick={closeMenu}
@@ -131,13 +146,14 @@ export default function Navbar() {
           >
             Pricing
           </Link>
-          <Link
-            to="/booking"
+          <a
+            href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2_lncfjV2lDh7zH-1wOV3q2aG41YSm7gXDdxJ4mEizZN0q0_g1C0ed3wBGKEtPd-Gx5HWSlaEA"
+
             className="bg-purple-600 text-white block px-3 py-2 rounded-md text-base font-medium hover:bg-purple-700"
             onClick={closeMenu}
           >
             Book an Appointment
-          </Link>
+          </a>
         </div>
       </div>
     </header>

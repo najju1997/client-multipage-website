@@ -22,11 +22,12 @@ export default function Hero() {
 
         <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
           <img
-            src="/src/assets/hero1.jpg"
+            src="/src/assets/physiotherapy.png"
             alt="mockup"
-            className="mx-auto flex h-full w-full max-w-[640px] rounded-2xl object-cover mt-16 lg:mt-0"
+            className="mx-auto shadow-2xl flex h-full w-full max-w-[640px] rounded-2xl object-cover mt-16 lg:mt-0"
           />
         </div>
+
       </div>
     </section>
   );
