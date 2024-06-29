@@ -6,8 +6,8 @@ const Accredition = () => {
         <section className="bg-[#f7f6f2] ">
           <div className="container font-futurapt mx-auto w-full max-w-7xl px-5 py-8 md:px-10 md:py-12 lg:py-16 grid md:grid-cols-2 gap-10 items-center">
             <div className="space-y-3 text-center md:text-left">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-                Accreditation and Certification
+              <h2 className="text-3xl font-bold tracking-tighter md:text-4xl">
+                Accreditation
               </h2>
               <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                 We're proudly accredited and certified.

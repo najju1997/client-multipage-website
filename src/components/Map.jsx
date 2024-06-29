@@ -9,7 +9,7 @@ const Map = () => {
 
             {/* Location description */}
             <div className="flex flex-col items-center w-full md:w-1/2">
-                <h3 className="mb-4 mt-6 text-2xl font-bold md:text-3xl text-center lg:text-left">
+                <h3 className="mb-4 mt-6 text-3xl font-bold md:text-4xl text-center lg:text-left">
                 Our Location
                 </h3>
                 <p className="mb-6 text-[#636262] md:mb-10 lg:mb-12 text-center lg:text-left">
