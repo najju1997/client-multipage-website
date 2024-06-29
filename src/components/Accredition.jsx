@@ -4,7 +4,7 @@ import acc2img from '../assets/accredition2.png'
 const Accredition = () => {
   return (
         <section className="bg-[#f7f6f2] ">
-          <div className="container font-futurapt mx-auto w-full max-w-7xl px-5 py-8 md:px-10 md:py-12 lg:py-16 grid md:grid-cols-2 gap-10 items-center">
+          <div className="container font-futurapt mx-auto w-full max-w-7xl px-5 py-8 md:px-4 md:py-12 lg:py-16 grid md:grid-cols-2 gap-10 items-center">
             <div className="space-y-3 text-center md:text-left">
               <h2 className="text-3xl font-bold tracking-tighter md:text-4xl">
                 Accreditation

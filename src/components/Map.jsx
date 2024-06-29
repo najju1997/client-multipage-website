@@ -4,7 +4,7 @@ import mapimage from '../assets/location.png'
 const Map = () => {
   return (
     <section className="bg-[#ffffff]">
-      <div className="font-futurapt mx-auto w-full max-w-7xl px-5 py-8 md:px-10 md:py-12 lg:py-16">
+      <div className="font-futurapt mx-auto w-full max-w-7xl px-5 py-8 md:px-10">
         <div className="flex flex-col lg:flex-row items-center gap-8 sm:gap-20">
 
             {/* Location description */}
