@@ -1,4 +1,4 @@
-import React from 'react';
+import profileimg from '../assets/profile.png';
 
 const About = () => {
     return (
@@ -10,7 +10,7 @@ const About = () => {
                     <div className="bg-gray-100 relative shadow-xl  rounded-xl p-5 flex items-center justify-center">
                         <div className="flex-col items-center gap-8">
                             <img
-                                src="/src/assets/profile.png"
+                                src={profileimg}
                                 className="w-60 h-60 object-cover rounded-full shadow-lg"
                                 alt="Profile"
                             />

@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import whoimage from "../assets/physiotherapy-1.jpg"
 
 const Who = () => {
   return (
@@ -11,7 +12,7 @@ const Who = () => {
           {/* image for services section */}
           <div className="flex justify-center w-full lg:w-1/2">
             <img
-              src="/src/assets/physiotherapy-1.jpg"
+              src={whoimage}
               alt="Features Image"
               className="drop-shadow-2x1 mx-auto h-auto w-full lg:max-w-[480px] max-w-[480px] rounded-2xl object-cover"
             />

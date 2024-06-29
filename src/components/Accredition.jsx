@@ -1,4 +1,5 @@
-import { Link } from "react-router-dom";
+import acc1img from '../assets/accredition1.png'
+import acc2img from '../assets/accredition2.png'
 
 const Accredition = () => {
   return (
@@ -13,7 +14,7 @@ const Accredition = () => {
               </p>
             </div>
             <div className="grid grid-cols-2 md:grid-cols-2 gap-6 md:gap-12">
-              {["src/assets/accredition1.png", "src/assets/accredition2.png"].map((logo, index) => (
+              {[acc1img, acc2img].map((logo, index) => (
                 <div key={index} className="mx-auto flex w-full items-center justify-center group">
                   <img
                     src={logo}

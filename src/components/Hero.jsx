@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import heroimg from '../assets/physiotherapy.png'
 
 export default function Hero() {
   return (
@@ -22,7 +22,7 @@ export default function Hero() {
 
         <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
           <img
-            src="/src/assets/physiotherapy.png"
+            src={heroimg}
             alt="mockup"
             className="mx-auto shadow-2xl flex h-full w-full max-w-[640px] rounded-2xl object-cover mt-16 lg:mt-0"
           />
@@ -32,4 +32,3 @@ export default function Hero() {
     </section>
   );
 }
-  
