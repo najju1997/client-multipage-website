@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import mapimage from '../assets/location.png'
 
 const Map = () => {
   return (
@@ -32,7 +33,7 @@ const Map = () => {
                 target="_blank"
                 rel="noopener noreferrer">
                 <img
-                    src="/src/assets/location.png"
+                    src={mapimage}
                     alt="Location Image"
                     className="mx-auto h-auto w-full lg:max-w-[480px] max-w-[480px] rounded-2xl object-cover shadow-2xl"
                 />
