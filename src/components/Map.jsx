@@ -20,7 +20,7 @@ const Map = () => {
                     href="https://www.google.com/maps/place/Cranstoun+House,+Ford,+Pathhead+EH37+5RF,+UK/@55.8703036,-2.9913522,15z/data=!4m6!3m5!1s0x4887bcf68efc3bef:0x6d8378a624211074!8m2!3d55.8709086!4d-2.9894076!16s%2Fg%2F1thq08y9?entry=ttu"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-block rounded-full border border-solid border-[#c9fd02] bg-[#c9fd02] px-6 py-4 text-center font-bold text-black transition hover:border-black hover:bg-white">
+                    className="inline-block rounded-full border border-solid bg-purple-600 px-6 py-4 text-center font-bold text-white transition hover:border-black hover:bg-purple-500">
                     View on Google Maps
                 </a>
                 </div>

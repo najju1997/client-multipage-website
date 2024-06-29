@@ -27,7 +27,7 @@ const Who = () => {
 
             <div className="flex justify-center w-full">
               <Link to="/about">
-                <a className="inline-block rounded-full border border-solid border-[#c9fd02] bg-[#c9fd02] px-6 py-4 text-center font-bold text-black transition hover:border-black hover:bg-white">
+                <a className="inline-block rounded-full border border-solid bg-purple-600 px-6 py-4 text-center font-bold text-white transition hover:border-black hover:bg-purple-500">
                   Learn More
                 </a>
               </Link>
