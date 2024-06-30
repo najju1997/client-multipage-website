@@ -7,7 +7,7 @@ import Booking from './pages/Booking';
 import Navbar from './components/Header'
 import './index.css'
 import Footer from './components/Footer';
-
+import { Analytics } from '@vercel/analytics/react';
 
 
 function App() {
@@ -22,6 +22,7 @@ function App() {
         <Route path="/booking" element={<Booking />} />
       </Routes>
       <Footer />
+      <Analytics />
     </div>
   );
 }
