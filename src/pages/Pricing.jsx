@@ -4,7 +4,7 @@ import Footer from '../components/Footer';
 const Pricing = () => {
     return (
       <>
-                <div className="bg-white font-futurapt lg:flex items-center justify-between p-6 md:p-12 shadow-md rounded-lg mt-4">
+                <div className="bg-white font-futurapt mx-auto max-w-7xl lg:flex items-center justify-between p-6 md:p-12 shadow-md rounded-lg mt-4">
             <div className="lg:w-1/2 w-full">
                 <p className="text-base leading-4 text-gray-600">Choose your plan</p>
                 <h1 className="md:text-5xl text-3xl font-bold leading-10 mt-3 text-gray-800">
