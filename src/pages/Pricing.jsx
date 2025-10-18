@@ -22,7 +22,7 @@ const Pricing = () => {
                     <div className="w-full p-2">
                         <div className="md:flex items-center justify-between">
                             <h2 className=" font-semibold leading-6 text-gray-800">Initial Assessment (45 mins)</h2>
-                            <p className="text-2xl md:mt-0 mt-4 font-semibold leading-6 text-gray-800">£45</p>
+                            <p className="text-2xl md:mt-0 mt-4 font-semibold leading-6 text-gray-800">£50</p>
                         </div>
                     </div>
                 </div>
@@ -31,7 +31,7 @@ const Pricing = () => {
                     <div className="w-full p-2">
                         <div className="md:flex items-center justify-between">
                             <h2 className="font-semibold leading-6 text-gray-800">Follow up (30 mins)</h2>
-                            <p className="text-2xl md:mt-0 mt-4 font-semibold leading-6 text-gray-800">£35</p>
+                            <p className="text-2xl md:mt-0 mt-4 font-semibold leading-6 text-gray-800">£40</p>
                         </div>
                     </div>
                 </div>
@@ -41,7 +41,7 @@ const Pricing = () => {
                     <div className="w-full p-2">
                         <div className="md:flex items-center justify-between">
                             <h2 className=" font-semibold leading-6 text-gray-800">Extended review (1 hour)</h2>
-                            <p className="text-2xl md:mt-0 mt-4 font-semibold leading-6 text-gray-800">£60</p>
+                            <p className="text-2xl md:mt-0 mt-4 font-semibold leading-6 text-gray-800">£70</p>
                         </div>
                     </div>
                 </div>
@@ -50,7 +50,7 @@ const Pricing = () => {
                     <div className="w-full p-2">
                         <div className="md:flex items-center justify-between">
                             <h2 className=" font-semibold leading-6 text-gray-800">Acupuncture (30 mins)</h2>
-                            <p className="text-2xl md:mt-0 mt-4 font-semibold leading-6 text-gray-800">£35</p>
+                            <p className="text-2xl md:mt-0 mt-4 font-semibold leading-6 text-gray-800">£40</p>
                         </div>
                     </div>
                 </div>
@@ -60,7 +60,7 @@ const Pricing = () => {
                     <div className="w-full p-2">
                         <div className="md:flex items-center justify-between">
                             <h2 className=" font-semibold leading-6 text-gray-800">Sport Massage (inc Deep Soft Tissue)</h2>
-                            <p className="text-2xl md:mt-0 mt-4 font-semibold leading-6 text-gray-800">£35</p>
+                            <p className="text-2xl md:mt-0 mt-4 font-semibold leading-6 text-gray-800">£40</p>
                         </div>
                     </div>
                 </div>
@@ -70,7 +70,7 @@ const Pricing = () => {
                     <div className="w-full p-2">
                         <div className="md:flex items-center justify-between">
                             <h2 className=" font-semibold leading-6 text-gray-800">Hydrotherapy (1 hour)</h2>
-                            <p className="text-2xl md:mt-0 mt-4 font-semibold leading-6 text-gray-800">£75</p>
+                            <p className="text-2xl md:mt-0 mt-4 font-semibold leading-6 text-gray-800">£80</p>
                         </div>
                     </div>
                 </div>
@@ -79,7 +79,7 @@ const Pricing = () => {
                     <div className="w-full p-2">
                         <div className="md:flex items-center justify-between">
                             <h2 className=" font-semibold leading-6 text-gray-800">Home visit (Midlothian)</h2>
-                            <p className="text-2xl md:mt-0 mt-4 font-semibold leading-6 text-gray-800">£45</p>
+                            <p className="text-2xl md:mt-0 mt-4 font-semibold leading-6 text-gray-800">£55</p>
                         </div>
                     </div>
                 </div>
